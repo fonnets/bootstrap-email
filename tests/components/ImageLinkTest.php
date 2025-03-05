@@ -18,7 +18,7 @@ class ImageLinkTest extends TestCase
         parent::setUp();
     }
 
-    public function testTable()
+    public function testImageLink()
     {
         $input = file_get_contents(__DIR__ . '/../resources/input/image-link.html');
         $output = file_get_contents(__DIR__ . '/../resources/output/image-link.html');
